@@ -13,7 +13,7 @@ jobs:
           mkdir docs
           mv build ./docs/build
           mv web ./docs/web
-          mv cv.pdf docs
+          mv cv.pdf ./docs/web
           mv index.html docs
 
       - name: Deploy 🚀
