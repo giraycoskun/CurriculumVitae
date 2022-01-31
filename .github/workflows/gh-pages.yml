@@ -12,9 +12,9 @@ jobs:
         run: |
           mkdir docs
           mv build ./docs/build
+          mv web ./docs/web
           mv cv.pdf docs
           mv index.html docs
-
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.2.2
