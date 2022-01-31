@@ -1,0 +1,201 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+\usepackage{fontspec} % For loading fonts
+\setmainfont{[Fontin-Regular.otf]}
+\defaultfontfeatures{Mapping=tex-text}
+% \setmainfont{[Fontin-Regular.otf]} % Main document font
+% \setmainfont[SmallCapsFont = Fontin-SmallCaps.otf]{[Fontin-Regular.otf]} % Main document font
+\setmainfont{Fontin-Regular.otf}[
+BoldFont       = Fontin-Bold.otf ,
+ItalicFont     = Fontin-Italic.otf ,
+SmallCapsFont  = Fontin-SmallCaps.otf ]
+
+\usepackage{longtable}
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\Huge Giray \textsc{Coskun}}\bigskip\par} % Your name
+
+\begin{longtable}{rlrl}
+\textsc{email:} & \href{mailto:giraycoskun@sabanciuniv.edu}{giraycoskun@sabanciuniv.edu} & \textsc{Github:} & \href{https://github.com/giraycoskun}{github.com/giraycoskun} \\
+\textsc{Website:} & \href{https://giraycoskun.com/}{giraycoskun.com} & \textsc{LinkedIn:} & \href{https://www.linkedin.com/in/giraycoskun/}{linkedin.com/in/giraycoskun} \\
+\textsc{Current city:} & Istanbul, Turkey & \textsc{Phone:} & +90 (542) 616 68 49 \\\\
+\end{longtable}
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{longtable}{r|p{11cm}}	
+% \textsc{July} 2012 & Master of Commerce in \textsc{Finance}, \textbf{The University of California}, Berkeley\\
+% & 110/110 \small\emph{First Class Honours} | Major: Quantitative Finance\\
+% & Thesis: ``Money is the Root of All Evil - Or is it?'' | \small Advisor: Prof. James \textsc{Smith}\\
+% &\normalsize \textsc{Gpa}: 8.0/9.0\hyperlink{grds}{\hfill | \footnotesize Detailed List of Exams}\\
+% &\\
+
+%------------------------------------------------
+
+\textsc{Feb} 2018-\textsc{June} 2023& \textsc{Sabanci University}\\
+& \small\emph{Bachelor of Science} in \textsc{Computer Science \& Engineering}\\%110/110
+& \small\emph{Double Major} in Economics\\
+& \small\emph{Minor} in Mathematics\\
+& \small\emph{GPA}: 3.92/4 \\
+& \small\emph{Academic Scholarship}: Full Tuition Waiver\\
+& \footnotesize{ \small\emph{Related Coursework}: \textsc{Algorithms \& Data Structures}, \textsc{Artifical Intelligence}, \textsc{Machine Learning}, \textsc{Distributed Systems}, \textsc{Computer Networks}, \textsc{Software Engineering}, \textsc{Software Verification \& Validation}}\\
+% &\normalsize \textsc{Gpa}: 6.9/10.0 \hyperlink{grds_usc}{\hfill| \footnotesize Detailed List of Exams}\\
+\multicolumn{2}{c}{} \\
+%------------------------------------------------
+
+\textsc{Feb} 2020-\textsc{June} 2020& \textsc{Uppsala University}\\
+& \small\emph{Erasmus Exchange Program} in Department of \textsc{Information Technology}\\%110/110
+% &\normalsize \textsc{Gpa}: 6.9/10.0 \hyperlink{grds_usc}{\hfill| \footnotesize Detailed List of Exams}\\
+&\\
+
+%------------------------------------------------
+
+% \textsc{Fall} 2008 & Exchange Semester at \textbf{University of Southern California}, Los Angeles\\
+% & \textsc{Gpa}: 8.0/9.0 \hyperlink{grds_usc}{\hfill| \footnotesize Detailed List of Exams}\\
+% &\\
+
+% %------------------------------------------------
+
+% \textsc{July} 2006& \textbf{Liceo Classico ``E. Duni''}, Matera | Final Grade: 100/100
+\end{longtable}
+
+% %----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	Project
+%----------------------------------------------------------------------------------------
+
+\section{Research Projects}
+
+\begin{longtable}{r|p{11cm}}
+\emph{March 2021-Jan 2022} & Using Unified Combinatorial Interaction Testing for MC/DC Coverage\\
+& \footnotesize{Modeled MC/DC testing criteria to Unified-Combinatorial Interaction Testing Tool to generate minimum test cases}\\
+& \footnotesize{Supervised by \href{mailto:cyilmaz@sabanciuniv.edu}{Prof. Dr. Cemal Yilmaz}}\\
+\multicolumn{2}{c}{} \\
+
+\emph{Sep 2021-Feb 2022} & Unsupervised SSVEP Signal Classification\\
+& \footnotesize{Developped a deep learning model with unsupervised strategy for SSVEP based Brain-Computer Interface Speller}\\
+& \footnotesize{Supervised by \href{mailto:hozkan@sabanciuniv.edu}{Prof. Dr. Huseyin Ozkan}}\\
+\multicolumn{2}{c}{} \\
+
+\emph{Sep 2019-June 2020} & A Combinatorial Interaction Testing-Based Daily Build Process\\
+& \footnotesize{Developped strategies to generate test cases for Daily-Build Process to obtain t-way Coverage under duration and size constraints}\\
+& \footnotesize{Supervised by \href{mailto:cyilmaz@sabanciuniv.edu}{Prof. Dr. Cemal Yilmaz}}\\
+\multicolumn{2}{c}{} \\
+\end{longtable}
+
+%------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+% \begin{tabular}{r|p{11cm}}
+\begin{longtable}{r|p{11cm}}
+
+\emph{Sep 2021-Jan 2022} & Learning Asistant in Programming Languages (CS305)\\
+\textsc{Sabanci University} & \footnotesize{Provided office hours and tutorials about \textsc{Linux}, \textsc{Flex}, \textsc{Bison} and \textsc{Scheme}.}\\
+& \footnotesize{Course taught by \href{mailto:husnuyenigun@sabanciuniv.edu}{Prof. Dr. Husnu Yenigun}}\\
+\multicolumn{2}{c}{} \\
+
+\emph{June 2021-Dec 2021} & Software Developer in Operation Expenditures Team\\
+\textsc{Migros E-Commerce} & \footnotesize{Developped microservices in \textsc{Java} with \textsc{Spring Framework}.}\\
+\multicolumn{2}{c}{} \\
+
+\emph{May 2021-June 2021} & Computer Engineer Intern\\
+\textsc{HAVELSAN} & \footnotesize{Implemented mission planning algorithm based on \textsc{Genetic Algorithms} and \textsc{Constrain-Satisfaction}.}\\
+\multicolumn{2}{c}{} \\
+\end{longtable}
+
+%------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	Publications
+%----------------------------------------------------------------------------------------
+
+\section{Publications}
+
+\begin{longtable}{p{11cm}}
+    CIT-daily: A Combinatorial Interaction Testing-Based Daily Build
+Process -  \textsc{Under Review at Journal of Systems and Software}\\
+\end{longtable}
+
+
+%------------------------------------------------
+
+% %----------------------------------------------------------------------------------------
+% %	COMPUTER SKILLS 
+% %----------------------------------------------------------------------------------------
+
+\section{Skills}
+
+\begin{longtable}{rl}
+Language: & \textsc{English} \small(IELTS SCORE:7.5), \textsc{Turkish} \small(Native)\\
+
+Programming Languages: & \textsc{Python}, \textsc{C/C++}, \textsc{Java}, \textsc{MATLAB}, \textsc{JavaScript}\\
+
+Frameworks: & \textsc{Spring}, \textsc{Flask}. \textsc{Express.js}, \textsc{React}\\
+&\\
+\end{longtable}
+
+% %----------------------------------------------------------------------------------------
+
+
+\end{document}
