@@ -72,7 +72,7 @@ const defaultOptions = {
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   defaultUrl: {
-    value: "giraycoskun-cv-Jan2022.pdf",
+    value: "giraycoskun-cv.pdf",
     kind: OptionKind.VIEWER
   },
   defaultZoomValue: {

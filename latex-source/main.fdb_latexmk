@@ -1,10 +1,10 @@
 # Fdb version 3
-["xdvipdfmx"] 1643618254 "main.xdv" "main.pdf" "main" 1643618519
-  "main.xdv" 1643618254 39508 f3842492741405ec44e04b511f43ef64 "xelatex"
+["xdvipdfmx"] 1647458184 "main.xdv" "main.pdf" "main" 1647458188
+  "main.xdv" 1647458184 39460 370b9df6cdaa12cb9a9e1e33a3b948e6 "xelatex"
   (generated)
   "main.pdf"
-["xelatex"] 1643618253 "/Users/giraycoskun/Documents/Github/CurriculumVitae-giraycoskun/latex-source/main.tex" "main.xdv" "main" 1643618519
-  "/Users/giraycoskun/Documents/Github/CurriculumVitae-giraycoskun/latex-source/main.tex" 1643618198 10569 047269fef72a6cd66926421faea2519b ""
+["xelatex"] 1647458182 "/Users/giraycoskun/Documents/Github/CurriculumVitae-giraycoskun/latex-source/main.tex" "main.xdv" "main" 1647458188
+  "/Users/giraycoskun/Documents/Github/CurriculumVitae-giraycoskun/latex-source/main.tex" 1647458182 10564 7586a72fd58e182c6d3b72c9d152319a ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2021/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -81,11 +81,11 @@
   "/usr/local/texlive/2021/texmf-dist/web2c/texmf.cnf" 1616443989 39972 3d6bb4d9d719e93193fa020b58adf5d4 ""
   "/usr/local/texlive/2021/texmf-var/web2c/xetex/xelatex.fmt" 1633019231 5093935 01b155bf394c2fbbaebbdb5658e102ca ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "main.aux" 1643618254 1885 eb93b916ca1e99a4b7b0f5d34eb36575 "xelatex"
-  "main.out" 1643618254 685 0e3a523c545ef9e758b9436bfdf3ea80 "xelatex"
-  "main.tex" 1643618198 10569 047269fef72a6cd66926421faea2519b ""
+  "main.aux" 1647458184 1885 eb93b916ca1e99a4b7b0f5d34eb36575 "xelatex"
+  "main.out" 1647458184 685 0e3a523c545ef9e758b9436bfdf3ea80 "xelatex"
+  "main.tex" 1647458182 10564 7586a72fd58e182c6d3b72c9d152319a ""
   (generated)
   "main.xdv"
-  "main.aux"
   "main.log"
+  "main.aux"
   "main.out"
